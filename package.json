@@ -1,5 +1,5 @@
 {
-  "name": "mantha-types",
+  "name": "@mantha/types",
   "version": "1.0.0",
   "description": "",
   "main": "index.d.ts",
