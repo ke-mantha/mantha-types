@@ -23,6 +23,10 @@ type ComponentImportPromiseMap = {
   [name: string]: ComponentImportPromise;
 };
 
+declare const env: String & {
+  isDevelopment: boolean
+};
+
 declare module '.*' {
   const render: <T>(arg: T) => T
   export = render;
